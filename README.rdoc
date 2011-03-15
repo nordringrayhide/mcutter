@@ -1,0 +1,38 @@
+= MCutter gem. Just another movie cutter gem
+
+== Usage
+
+  gem install mcutter
+
+  cd my_movie_project_dir
+  mcutter init
+  cp movie.mpg src/
+
+Example:
+ timeline.txt
+
+  src/movie.mpg 00:03:22 00:04:35 out/movie.a.mpg
+  src/movie.mpg 00:05:22 00:07:10 out/movie.b.mpg
+  ...
+  src/movie.mpg 00:08:15 00:10:27 out/movie.z.mpg
+
+run "mcutter cut"
+
+taadaaa
+
+  ls ./out
+
+  movie.a.mpg
+  movie.b.mpg
+  ...
+  movie.z.mpg
+
+== Requirements
+
+ffmpeg
+
+  brew install ffmpeg
+
+== License
+
+MIT License. Copyright 2011 Roman V. Babenko. http://romanvababenko.com
