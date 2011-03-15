@@ -35,4 +35,4 @@ ffmpeg
 
 == License
 
-MIT License. Copyright 2011 Roman V. Babenko. http://romanvababenko.com
+MIT License. Copyright 2011 Roman V. Babenko. http://romanvbabenko.com
